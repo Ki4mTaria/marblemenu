@@ -1,0 +1,90 @@
+
+.c-mm-symb {
+  position:              absolute;
+  z-index:               100;
+  width:                 60px;
+  height:                60px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius:    40px;
+  border-radius:         40px;
+  background-color:      white;
+  border:                solid 10px lightgreen;
+  text-align:            center;
+  box-shadow:            3px 3px 3px rgba(0,0,0,0.4);
+  -moz-box-shadow:       3px 3px 3px rgba(0,0,0,0.4);
+  -webkit-box-shadow:    3px 3px 3px rgba(0,0,0,0.4);
+}
+
+.c-mm-titl {
+  position:              absolute;
+  background-color:      rgb(230,230,230);
+  font-size:             25px;
+  margin-left:           50px;
+  padding-left:          10px;
+  padding-right:         10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius:    5px;
+  border-radius:         5px;
+  width:                 150px;
+  text-align:            center;
+  word-wrap:             break-word;
+  box-shadow:            3px 3px 3px rgba(0,0,0,0.4);
+  -webkit-box-shadow:    3px 3px 3px rgba(0,0,0,0.4);
+  -moz-box-shadow:       3px 3px 3px rgba(0,0,0,0.4);
+}
+
+.c-mm-symb-lock {  
+  animation-name:            an-lock;
+  animation-duration:        1s;
+  animation-timing-function: ease;
+  animation-delay:           0s;
+  animation-iteration-count: 1;
+  animation-direction:       normal;
+  animation-fill-mode:       forwards;
+  
+  -webkit-animation-name:            an-lock;
+  -webkit-animation-duration:        1s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-delay:           0s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-direction:       normal;
+  -webkit-animation-fill-mode:       forwards;
+}
+
+.c-mm-symb-unlock {
+  animation-name:            an-unlock;
+  animation-duration:        1s;
+  animation-timing-function: ease;
+  animation-delay:           0s;
+  animation-iteration-count: 1;
+  animation-direction:       normal;
+  animation-fill-mode:       forwards;
+  
+  -webkit-animation-name:            an-unlock;
+  -webkit-animation-duration:        1s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-delay:           0s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-direction:       normal;
+  -webkit-animation-fill-mode:       forwards;
+}
+
+@-webkit-keyframes an-lock {
+  0%   { border-color: lightgreen; }
+  100% { border-color: rgba(255,0,0,0.6); }
+}
+@keyframes an-lock {
+  0%   { border-color: lightgreen; }
+  100% { border-color: rgba(255,0,0,0.6); }
+}
+
+@-webkit-keyframes an-unlock {
+  0%   { border-color: rgba(255,0,0,0.6); }
+  100% { border-color: lightgreen; }
+}
+@keyframes an-unlock {
+  0%   { border-color: rgba(255,0,0,0.6); }
+  100% { border-color: lightgreen; }
+}
+
+

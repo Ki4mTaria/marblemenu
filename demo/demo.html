@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+  <title>MarbleMenu</title>
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="./marblemenu-0.8.0.min.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="./marblemenu-0.8.0.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <style>
+  .fa {
+    margin-top: 6px;
+  }
+  .c-conts {
+    display: none;
+  }
+  .c-conts > h2 {
+    text-align:      center;
+    font-family:     'Poiret One', cursive;
+    letter-spacing:  3px;
+  }
+  .c-mm-desc {
+    font-family:     'Poiret One', cursive;
+    font-weight:     bold;
+    letter-spacing:  2px;
+  }
+  </style>
+  <script>
+  $(function(){
+    var mblmenu =  $("#marblemenu").marblemenu();
+    $(".show-menu").click(function(){
+      mblmenu.showMenu();
+    });
+  });
+  </script>
+</head>
+<body>
+  <div id="marblemenu" style="display:none;">
+    <div class="c-mm-elem" href="#conts-home">
+      <div class="c-mm-symb">
+        <i class="fa fa-home fa-3x"></i>
+      </div>
+      <div class="c-mm-titl">home</div>
+    </div>
+    <div class="c-mm-elem" href="#conts-faivorite">
+      <div class="c-mm-symb">
+        <i class="fa fa-star fa-3x"></i>
+      </div>
+      <div class="c-mm-titl">faivorite</div>
+    </div>
+    <div class="c-mm-elem" href="#conts-friend">
+      <div class="c-mm-symb">
+        <i class="fa fa-users fa-3x"></i>
+      </div>
+      <div class="c-mm-titl">friend</div>
+    </div>
+    <div class="c-mm-elem" href="#conts-information">
+      <div class="c-mm-symb">
+        <i class="fa fa-info-circle fa-3x"></i>
+      </div>
+      <div class="c-mm-titl">information</div>
+    </div>
+    <div class="c-mm-elem" href="#conts-history">
+      <div class="c-mm-symb">
+        <i class="fa fa-history fa-3x"></i>
+      </div>
+      <div class="c-mm-titl">history</div>
+    </div>
+    <div class="c-mm-elem" href="#conts-profile">
+      <div class="c-mm-symb">
+        <i class="fa fa-user fa-3x"></i>
+      </div>
+      <div class="c-mm-titl">profile</div>
+    </div>
+    <div class="c-mm-elem" href="#conts-about">
+      <div class="c-mm-symb">
+        <i class="fa fa-question-circle fa-3x"></i>
+      </div>
+      <div class="c-mm-titl">about</div>
+    </div>
+  </div>
+  <div class="c-conts" id="conts-home">
+    <h2>Home Contents</h2>
+    <button class="ui-btn show-menu">Show Menu</button>
+  </div>
+  <div class="c-conts" id="conts-faivorite">
+    <h2>Faivorite Contents</h2>
+    <button class="ui-btn show-menu">Show Menu</button>
+  </div>
+  <div class="c-conts" id="conts-friend">
+    <h2>Friend Contents</h2>
+    <button class="ui-btn show-menu">Show Menu</button>
+  </div>
+  <div class="c-conts" id="conts-information">
+    <h2>Information Contents</h2>
+    <button class="ui-btn show-menu">Show Menu</button>
+  </div>
+  <div class="c-conts" id="conts-history">
+    <h2>History Contents</h2>
+    <button class="ui-btn show-menu">Show Menu</button>
+  </div>
+  <div class="c-conts" id="conts-profile">
+    <h2>Profile Contents</h2>
+    <button class="ui-btn show-menu">Show Menu</button>
+  </div>
+  <div class="c-conts" id="conts-about">
+    <h2>About Contents</h2>
+    <button class="ui-btn show-menu">Show Menu</button>
+  </div>
+</body>
+</html>
+
