@@ -1,6 +1,6 @@
 ## Marblemenu
 A menu for all kind of websites.  
-Marblemenu displayed in some circles the menu.  
+Marblemenu sets some round icons in a circularround.  
 User selects slide the circle.  
 
 [Demo](http://ki4mtaria.github.io/marblemenu/demo/demo.html)
