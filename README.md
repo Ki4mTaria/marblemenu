@@ -13,14 +13,14 @@ User selects slide the circle.
         <div class="c-mm-symb">
           <i class="fa fa-home fa-3x"></i> <!-- icon or image -->
         </div>
-      <div class="c-mm-title">home</div>
+      <div class="c-mm-titl">home</div>
         :
     </div>
     <div class="c-conts" id="conts-home">
       <!-- contents -->
     </div>
 
-require class name "c-mm-elem","c-mm-symb","c-mm-title"  
+require class name "c-mm-elem","c-mm-symb","c-mm-titl"  
 require id name to each tag for contents,specipy "href" to corresponding "c-mm-elem".  
 
 **javascript**  
